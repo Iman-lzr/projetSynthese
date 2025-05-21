@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/passer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passer"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/viewpager"/>
+
+    <LinearLayout
+        android:id="@+id/Oauth"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/google"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="Se connecter avec Google"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/seConnecter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="Se connecter"
+        android:backgroundTint="@color/orange"/>
+
+
+    <TextView
+        android:id="@+id/creer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/orange"
+        android:text="Créer un compte"/>
+
+</LinearLayout>

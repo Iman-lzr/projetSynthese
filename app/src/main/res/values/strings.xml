@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">projet</string>
+    <string name="creerCompte">Créer un compte</string>
+    <string name="txt_cnx">Ravi de vous revoir, saisissez vos coordonnées ci-dessous pour continuer votre commande</string>
+    <string name="connexion">Connectez-vous à votre compte</string>
+    <string name="Oauth">Se connecter avce google</string>
+    <string name="on_titre">Preparez vous à un festin visuel gustatif avec notre menu interactif !</string>
+    <string name="on2_titre">Bienvenue dans le mode délicieux Sirfood, dont chaque plat raconte une histoire </string>
+</resources>
